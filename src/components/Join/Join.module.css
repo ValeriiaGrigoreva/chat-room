@@ -1,0 +1,38 @@
+.JoinOutterContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.joinInnerContainer {
+    background-color: #1939DC;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.heading {
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.joinInput {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    border: 0px;
+    outline: none;
+}
+
+.button {
+    margin-top: 5px;
+    padding: 7px;
+    border-radius: 15px;
+    border: 0px;
+    outline: none;
+    width: 70px;
+    cursor: pointer;
+}
+
+
