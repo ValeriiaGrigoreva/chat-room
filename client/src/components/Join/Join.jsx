@@ -11,7 +11,7 @@ const Join = () => {
     return (
         <div className={style.JoinOutterContainer}>
             <div className={style.joinInnerContainer}>
-                <h1 className={style.heading}>ForaChat</h1>
+                <h1 className={style.heading}>Chat</h1>
                 <div><input placeholder="Name" className={style.joinInput} type="text" onChange={(event) => setName(event.target.value)} /></div>  
                 <div><input placeholder="Room" className={style.joinInput} type="text" onChange={(event) => setRoom(event.target.value)} /></div>
                 {/*transfer link to the chat component*/}
